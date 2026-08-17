@@ -1,5 +1,6 @@
 node_modules
 dist
+portfolio-starter
 .DS_Store
 *.log
 .vercel
