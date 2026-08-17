@@ -30,6 +30,14 @@ export default function Header() {
     };
   }, [open]);
 
+  useEffect(() => {
+    const onResize = () => {
+      if (window.innerWidth >= 860) setOpen(false);
+    };
+    window.addEventListener("resize", onResize);
+    return () => window.removeEventListener("resize", onResize);
+  }, []);
+
   return (
     <header className={scrolled ? "site-header is-scrolled" : "site-header"}>
       <span className="scroll-progress" style={{ transform: `scaleX(${progress})` }} />
@@ -42,7 +50,7 @@ export default function Header() {
           {links.map((link) => (
             <a key={link.href} href={link.href}>
               <em>{link.index}</em>
-              {link.label}
+              <span>{link.label}</span>
             </a>
           ))}
           <a
@@ -76,7 +84,8 @@ export default function Header() {
         <nav aria-label="Mobile">
           {links.map((link) => (
             <a key={link.href} href={link.href} onClick={() => setOpen(false)}>
-              <em>{link.index}</em> {link.label}
+              <em>{link.index}</em>
+              <span>{link.label}</span>
             </a>
           ))}
           <a

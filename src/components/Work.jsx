@@ -48,7 +48,7 @@ export default function Work() {
         </div>
         <p className="section-lede">
           Each card is a real screenshot of the product. The button opens the
-          Vercel deploy — not the repo.
+          Vercel deploy, not the repo.
         </p>
       </div>
 

@@ -17,9 +17,6 @@ export default function App() {
 
   return (
     <div className="app">
-      <div className="wash wash-a" aria-hidden="true" />
-      <div className="wash wash-b" aria-hidden="true" />
-      <div className="wash wash-c" aria-hidden="true" />
       <Header />
       <main>
         <Hero />

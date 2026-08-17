@@ -10,7 +10,7 @@ export const profile = {
   github: "https://github.com/Favourdamian",
   linkedin: "https://www.linkedin.com/in/favour-obiagwu",
   headline:
-    "I turn messy ideas into calm, useful interfaces — products people can actually finish using.",
+    "I turn messy ideas into calm, useful interfaces and products people can actually finish using.",
   intro:
     "Chemistry graduate turned frontend developer. I care about accessibility, clear interaction, and work that still feels considered after the demo.",
 };
@@ -31,9 +31,9 @@ export const featured = [
     blurb:
       "A full-stack learning platform for students and parents — lessons, timed tests, report cards, and separate dashboards for each role.",
     stack: ["React", "Node.js", "Express", "MongoDB"],
-    href: "https://smartedu-favour-damians-projects.vercel.app",
+    href: "https://smartedu-smoky-ten.vercel.app/",
     image: "/work/smartedu.png",
-    accent: "#1e9ed6",
+    accent: "#3f6d82",
   },
   {
     id: "invoice",
@@ -44,9 +44,9 @@ export const featured = [
     blurb:
       "A complete invoice manager with create, edit, draft, and send flows, status filters, live totals, and a dark / light theme that meets WCAG AA.",
     stack: ["React", "Context API", "CSS", "a11y"],
-    href: "https://invoice-app-favour-damians-projects.vercel.app",
+    href: "https://invoice-app-blue-pi.vercel.app/",
     image: "/work/invoice.png",
-    accent: "#5ec8f0",
+    accent: "#3f6d82",
   },
   {
     id: "habits",
@@ -57,9 +57,9 @@ export const featured = [
     blurb:
       "A mobile-first PWA for daily routines. Local auth, streak logic, offline support, and a test suite covering unit, integration, and Playwright journeys.",
     stack: ["Next.js", "TypeScript", "Tailwind", "PWA"],
-    href: "https://habit-tracker-favour-damians-projects.vercel.app",
+    href: "https://habit-tracker-umber-six.vercel.app/",
     image: "/work/habits.png",
-    accent: "#0d7fb3",
+    accent: "#3f6d82",
   },
   {
     id: "scripture",
@@ -70,9 +70,9 @@ export const featured = [
     blurb:
       "A voice-aware scripture finder for preachers. Speak or type a reference or topic, and it pulls matching verses from a Bible API in real time.",
     stack: ["React", "Speech API", "Vite"],
-    href: "https://scripture-guide-favour-damians-projects.vercel.app",
+    href: "https://scripture-guide-one.vercel.app/",
     image: "/work/scripture.png",
-    accent: "#2bb0e0",
+    accent: "#3f6d82",
   },
 ];
 
@@ -81,17 +81,17 @@ export const moreWork = [
     title: "Profile Card",
     blurb: "Accessible personal card with live time, socials, and avatar upload.",
     stack: "HTML · CSS · JavaScript",
-    href: "https://profile-card-favour-damians-projects.vercel.app",
+    href: "https://profile-card-pi-one.vercel.app/",
     image: "/work/profile.png",
-    accent: "#1e9ed6",
+    accent: "#3f6d82",
   },
   {
     title: "Advanced Todo Card",
     blurb: "Interactive task card with inline edit, overdue logic, and keyboard-first controls.",
     stack: "HTML · CSS · JavaScript",
-    href: "https://advanced-todo-card.vercel.app",
+    href: "https://advanced-todo-card-n7d9.vercel.app/",
     image: "/work/todo.png",
-    accent: "#5ec8f0",
+    accent: "#3f6d82",
   },
 ];
 

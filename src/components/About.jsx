@@ -45,7 +45,7 @@ export default function About() {
           <div className="about-copy" data-reveal>
             <p>
               I am {profile.legalName}. I studied Pure and Industrial Chemistry,
-              then followed the part of that discipline I actually loved —
+              then followed the part of that discipline I actually loved:
               careful systems, clear structure, and making something work in
               front of a real person.
             </p>
