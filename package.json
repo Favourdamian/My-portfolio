@@ -1,0 +1,9 @@
+{
+  "name": "favour-damian-portfolio",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix portfolio-starter",
+    "build": "npm run build --prefix portfolio-starter",
+    "preview": "npm run preview --prefix portfolio-starter"
+  }
+}
