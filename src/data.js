@@ -29,7 +29,7 @@ export const featured = [
     year: "2026",
     kind: "Learning platform",
     blurb:
-      "A full-stack learning platform for students and parents — lessons, timed tests, report cards, and separate dashboards for each role.",
+      "A full-stack learning platform for students and parents: lessons, timed tests, report cards, and separate dashboards for each role.",
     stack: ["React", "Node.js", "Express", "MongoDB"],
     href: "https://smartedu-smoky-ten.vercel.app/",
     image: "/work/smartedu.png",
@@ -99,7 +99,7 @@ export const aboutFacts = [
   { label: "Based in", value: "Nigeria" },
   { label: "Background", value: "Pure & Industrial Chemistry" },
   { label: "Focus", value: "Frontend & product UI" },
-  { label: "Currently", value: "Open to internships & junior roles" },
+  { label: "Currently", value: "Open to internships & jobs" },
 ];
 
 export const skillGroups = [

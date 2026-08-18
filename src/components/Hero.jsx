@@ -45,7 +45,7 @@ export default function Hero() {
           </div>
           <figcaption>
             <span>{profile.legalName}</span>
-            <span>Available for internships &amp; junior roles</span>
+            <span>Available for internships &amp; jobs</span>
           </figcaption>
         </figure>
       </div>
